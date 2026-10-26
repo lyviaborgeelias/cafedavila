@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "708218955354",
+    "project_id": "cafedavila-2fc46",
+    "storage_bucket": "cafedavila-2fc46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708218955354:android:bf65847053b91065429a63",
+        "android_client_info": {
+          "package_name": "com.meuapp.cafedavila"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClrLId7l2W-SBg8XAsfhm71dUOXyUcu5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
