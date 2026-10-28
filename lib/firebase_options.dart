@@ -55,6 +55,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '708218955354',
     projectId: 'cafedavila-2fc46',
     authDomain: 'cafedavila-2fc46.firebaseapp.com',
+    databaseURL: 'https://cafedavila-2fc46-default-rtdb.firebaseio.com',
     storageBucket: 'cafedavila-2fc46.firebasestorage.app',
     measurementId: 'G-18V7KVFZ2J',
   );
@@ -64,6 +65,7 @@ class DefaultFirebaseOptions {
     appId: '1:708218955354:android:bf65847053b91065429a63',
     messagingSenderId: '708218955354',
     projectId: 'cafedavila-2fc46',
+    databaseURL: 'https://cafedavila-2fc46-default-rtdb.firebaseio.com',
     storageBucket: 'cafedavila-2fc46.firebasestorage.app',
   );
 }

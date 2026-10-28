@@ -3,6 +3,7 @@ import 'package:cafe_da_vila/models/produto.dart';
 import 'package:cafe_da_vila/screens/telahome.dart';
 import 'package:cafe_da_vila/screens/telaprodutos.dart';
 import 'package:cafe_da_vila/screens/telaperfil.dart';
+import 'package:cafe_da_vila/screens/telarecados.dart';
 import 'package:cafe_da_vila/services/cache_service.dart';
 import 'package:cafe_da_vila/services/produto_service.dart';
 
@@ -107,6 +108,7 @@ class _NavBarState extends State<NavBar> {
         onExcluir: excluirProduto,
         onFavoritar: mudarFavorito,
       ),
+      const TelaRecados(),
       const TelaPerfil(),
     ];
 
@@ -115,11 +117,13 @@ class _NavBarState extends State<NavBar> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: indexAtual,
         onTap: (novoIndex) => setState(() => indexAtual = novoIndex),
+        type: BottomNavigationBarType.fixed,
         selectedItemColor: const Color(0xFF70452E),
         unselectedItemColor: Colors.grey,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Início'),
           BottomNavigationBarItem(icon: Icon(Icons.coffee), label: 'Cardápio'),
+          BottomNavigationBarItem(icon: Icon(Icons.note_alt_outlined), label: 'Recados'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
         ],
       ),
